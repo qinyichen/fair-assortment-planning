@@ -1,12 +1,12 @@
-# Fair Assortment Planning
+## Fair Assortment Planning
 
 This repository contains the implementation of the algorithms and experiments presented in the paper "Fair Assortment Planning". The scripts enable the replication of the results and the execution of synthetic experiments related to the paper.
 
-## Paper Link
+### Paper Link
 
 For more details on the research and findings, please refer to our paper. [Fair Assortment Planning](<https://arxiv.org/abs/2208.07341>).
 
-## Contents
+### Contents
 
 The repository includes the following Python scripts:
 
@@ -16,7 +16,7 @@ The repository includes the following Python scripts:
 - `primal.py`: solving primal problem as part of column_generation
 - `staticMNL.py`: [staticMNL algorithm](<https://github.com/thejat/scalable-data-driven-assortment-planning/tree/master>) used for benchmarking purpose
 
-## Getting Started
+### Getting Started
 
 To run a synthetic experiment, execute the following command in the terminal:
 
@@ -26,7 +26,7 @@ python experiment.py <number>
 
 where the number indicates the instance and the fairness level $\delta$ to be adopted
 
-## Citing Our Work
+### Citing Our Work
 
 If you utilize this code for your research or project, please acknowledge our paper by citing:
 
